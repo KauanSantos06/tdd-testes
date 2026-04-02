@@ -7,6 +7,8 @@ import {
   removeTask,
   filterTasks,
   countTasks,
+  countCompleted,
+  countPending,
   resetId,
 } from '../src/taskManager.js';
 
@@ -288,6 +290,7 @@ describe('filterTasks', () => {
     expect(result).not.toBe(tasks);
   });
 });
+
 
 
 // ============================================================
